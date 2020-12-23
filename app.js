@@ -44,6 +44,8 @@ function win(userChoice, computerChoice) {
         let flag = 1;
         if (flag == 1) {
             setTimeout(function () {
+                userScore = 0;
+                computerScore = 0;
                 userScore_span.innerHTML = 0;
                 computerScore_span.innerHTML = 0;
                 result_p.innerHTML = `Play again to win!`;
@@ -79,6 +81,8 @@ function lose(userChoice, computerChoice) {
         let flag = 1;
         if (flag == 1) {
             setTimeout(function () {
+                userScore = 0;
+                computerScore = 0;
                 userScore_span.innerHTML = 0;
                 computerScore_span.innerHTML = 0;
                 result_p.innerHTML = `Play again to win!`;
